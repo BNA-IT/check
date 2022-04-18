@@ -1,0 +1,40 @@
+.Track{
+    width: 33%;
+    border-right: 2px solid #E9ECF2;
+  
+}
+.Shopfloor{
+    width: 33%;
+    border-right: 2px solid #E9ECF2;
+   
+}
+.Smart{
+    width: 33%;
+    border-right: 2px solid #E9ECF2;
+   
+}
+.row{
+    padding-bottom: 60px;
+    transition: 0.55s;
+    padding-left: 10px;
+}
+.row h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row p{
+    font-size: 16px;
+}
+.row:hover{
+    background-color: #E9ECF2;
+    box-shadow: rgb(0 0 0 / 1%) 1.16944px 1.16944px 7.01662px 2.33887px;
+    border-radius: 5px;
+}
+.img{
+    background-image: url("https://themes.envytheme.com/alpas/wp-content/themes/alpas/assets/img/services-shape.png");
+    width: 524px;
+    height: 588px;
+    z-index: 1;
+    position: absolute;
+    left: -150px;
+}

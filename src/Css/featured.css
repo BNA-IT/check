@@ -1,0 +1,46 @@
+.Featured{
+    width: 80%;
+    margin: auto;
+}
+.Featured h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.Featured-title{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.Feature-col{
+    margin-top: 70px ;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.col{
+    width: 27%;
+    height: 300px;
+}
+.col h3{
+    font-size: 23px;
+}
+.col p{
+    font-size: 14px;
+    color: #57647C ;
+}
+.col-1{
+    background-image: url("https://themes.envytheme.com/alpas/wp-content/uploads/2019/11/1-2-5.png");
+    height: 196px;
+    width:200px;
+}
+.col-2{
+    background-image: url("https://themes.envytheme.com/alpas/wp-content/uploads/2019/11/2-1-5.png");
+    height: 196px;
+    width:200px;
+}
+.col-3{
+    background-image: url("https://themes.envytheme.com/alpas/wp-content/uploads/2019/11/3-1-5.png");
+    height: 196px;
+    width:200px;
+}
