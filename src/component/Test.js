@@ -8,8 +8,8 @@ class Test extends Component{
                 <div className="img-content-1"></div>
                     <div className="content-left-1"></div>
                     <div className="content-right">
-                        <h3>Make your business more competitive<br></br>and sustainable.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br></br> incididunt ut labore et dolore magna aliqua.Influencing Sales</p>
+                        <h3>Every production can do more with data</h3>
+                        <p>Rostek collects data from your production and provides insight into why real performance<br></br> is different from the production plan. Bring decision-making from planning to real-time.<br></br> You’ll get instant notifications when interruptions and downtimes occur.</p>
                         <div className="flex-col">
                             <div className="col-box">
                                 
@@ -30,8 +30,8 @@ class Test extends Component{
                 <div className="Content-title-2">
                 <div className="img-content-2"></div>
                     <div className="content-right">
-                        <h3>Make your business more competitive<br></br>and sustainable.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br></br> incididunt ut labore et dolore magna aliqua.Influencing Sales</p>
+                        <h3>Remove clutter from your production</h3>
+                        <p>Implement the most comprehensive production data exchange software solution. No more<br></br> paperback reports!</p>
                         <div className="flex-col">
                             <div className="col-box">
                                 

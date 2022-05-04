@@ -9,13 +9,18 @@ import Featured from './component/Featured';
 import Test from './component/Test';
 import Banner from './component/Banner';
 import Price from './component/Price';
+import Home from './pages/Home';
+import Prices from './pages/Prices';
 import './App.css';
-
+import { Routes,Route } from 'react-router-dom';
 class App extends Component{
   render(){
     return(
       <div>
-        <Price></Price>
+        <Routes>
+          <Route path='/' element = {<Home></Home>}></Route>
+          <Route path='/Prices' element = {<Prices></Prices>}></Route>
+        </Routes>
       </div>
       );
   }

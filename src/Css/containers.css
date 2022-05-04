@@ -10,7 +10,7 @@
 }
 .Smart{
     width: 34%;
-    border-right: 2px solid #E9ECF2;
+    /* border-right: 2px solid #E9ECF2; */
    
 }
 .row{
@@ -18,21 +18,31 @@
     padding-left: 50px;
     padding-top: 30px;
     padding-right: 30px;
-    transition: 0.75s;
+    transition: 0.5s;
 }
 .row h4{
     font-size: 20px;
     font-weight: bold;
-    color: #25487B;
+    color: #000;
 }
 .row p{
     font-size: 16px;
     line-height: 30px;
 }
+.color-icon{
+    color: #B5B0C1;
+}
 .row:hover{
     /* background-color: #E9ECF2; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+.row:hover h4{
+    color: #25487B;
+}
+.row:hover .color-icon{
+    color: #25487B;
+}
+
 .img{
     background-image: url("https://themes.envytheme.com/alpas/wp-content/themes/alpas/assets/img/services-shape.png");
     width: 524px;

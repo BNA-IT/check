@@ -25,7 +25,7 @@ class Footer extends Component{
                 </ul>
             </div>
             <div class="footer-3">
-                <a href="https://www.facebook.com/rostek.com.vn">
+                <a style={{color:"black"}} href="https://www.facebook.com/rostek.com.vn">
                     <div class="vong-tron"><i class="fa-brands fa-facebook-f chinh"></i></div>
                 </a>
                 <div class="vong-tron"><i class="fa-brands fa-youtube chinh"></i></div>

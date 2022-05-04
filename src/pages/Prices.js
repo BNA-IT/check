@@ -4,16 +4,14 @@ import Featured from "../component/Featured";
 import Test from "../component/Test";
 import Content from "../component/Content";
 import Footer from "../component/Footer";
-function Home(){
+import Price from "../component/Price";
+function Prices(){
     return(
         <div>
             <NavBar></NavBar>
             <Banner/>
-            <Featured></Featured>
-            <Test></Test>
-            <Content></Content>
-            <Footer></Footer>
+           <Price></Price>
         </div>
     );
 }
-export default Home;
+export default Prices;

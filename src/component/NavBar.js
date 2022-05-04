@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import '../Css/Nav_Bar.css';
 import { Menu, Dropdown, Button } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 const menu = (
   <Menu>
     <Menu.Item>
@@ -30,15 +31,15 @@ class App extends Component{
           </div>
           <div>
               <ul style={{display:"flex", margin:"0",padding:"0"}}>
-                  <li>Price</li>
+                  <li><Link to='/' style={{color:"#ffffff"}}>Home</Link></li>
+                  <li><Link to='/Prices' style={{color:"#ffffff"}}>Prices</Link></li>
                   <li>About</li>
                   <li>Contact</li>
-                  <li>Demo</li>
                   <li>Team</li>
                   <li>Blog</li>
-                  <li>Demo</li>
-                  <li>Demo</li>
-                  <li>Demo</li>
+                  <li>Tutorials</li>
+                  <li>Podcast</li>
+                  <li>Career</li>
               </ul>
           </div>
           <div style={{display:"flex",alignItems:"center"}}>
