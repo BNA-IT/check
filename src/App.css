@@ -128,3 +128,8 @@ img {vertical-align: middle;}
   background-color: yellow;
   height: '500px',
 }
+html body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

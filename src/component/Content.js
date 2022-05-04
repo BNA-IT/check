@@ -4,7 +4,7 @@ import Containers from "./Containers";
 class Content extends Component{
     render(){
         return(
-            <div className="contents"> 
+            <div className="contents" style={{marginTop:"450px"}}> 
                 
                 <Containers></Containers>
             </div>

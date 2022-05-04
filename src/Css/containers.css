@@ -9,32 +9,35 @@
    
 }
 .Smart{
-    width: 33%;
+    width: 34%;
     border-right: 2px solid #E9ECF2;
    
 }
 .row{
     padding-bottom: 60px;
-    transition: 0.55s;
-    padding-left: 10px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    transition: 0.75s;
 }
 .row h4{
     font-size: 20px;
     font-weight: bold;
+    color: #25487B;
 }
 .row p{
     font-size: 16px;
+    line-height: 30px;
 }
 .row:hover{
-    background-color: #E9ECF2;
-    box-shadow: rgb(0 0 0 / 1%) 1.16944px 1.16944px 7.01662px 2.33887px;
-    border-radius: 5px;
+    /* background-color: #E9ECF2; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .img{
     background-image: url("https://themes.envytheme.com/alpas/wp-content/themes/alpas/assets/img/services-shape.png");
     width: 524px;
     height: 588px;
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     left: -150px;
 }

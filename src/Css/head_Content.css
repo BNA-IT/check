@@ -4,35 +4,44 @@
     margin: auto;
     position: absolute;
     z-index: 1000;
-    top: 80px;
+    top: 50px;
+    left: 70px;
    margin-left: 40px;
 }
-.content-left{
+.content-left-banner{
     width: 50%;
+    margin: auto;
 }
-.content-left h1{
+.content-left-banner h1{
     font-size: 52px;
     padding-right: 25%;
     line-height: 52px;
 }
-.content-left p{
+.content-left-banner p{
     margin-top: 40px;
     font-size: 18px;
-    color: #65636C;
+    color: #ffffff;
     margin-bottom: 40px;
 }
-.content-left span{
-    color: #25487B;
+.content-left-banner span{
+    color: #ffffff;
     font-weight: bold;
 }
 .button-head{
     width: 200px;
     height: 55px;
     font-size: 20px;
-    background-color: #25487B;
+    background-color: #9EA4A9;
     color: #ffff;
     font-weight: bold;
     line-height: 55px;
     text-align: center;
     border-radius: 10px;
+}
+.content-right-banner{
+    height: 590px;
+    background-image: url("https://html.themexriver.com/pixer/images/resource/1.png");
+    z-index: 2;
+    width: 50%;
+    background-size: 100% 100%;
 }

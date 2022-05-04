@@ -24,12 +24,12 @@ const menu = (
 class App extends Component{
   render(){
     return(
-      <div className='nav' style={{display:"flex", alignItems:"center",height:"50px",marginTop:"20px",marginBottom:"35px"}}>
-          <div>
-              <h1>Rostek</h1>
+      <div className='nav' style={{display:"flex", alignItems:"center",height:"50px",background:"#25487B",color:"#ffffff",justifyContent:"center",paddingTop:"20px",position:"relative",zIndex:"9999"}}>
+          <div className='img-navbar'>
+              
           </div>
           <div>
-              <ul style={{display:"flex"}}>
+              <ul style={{display:"flex", margin:"0",padding:"0"}}>
                   <li>Price</li>
                   <li>About</li>
                   <li>Contact</li>
@@ -43,7 +43,7 @@ class App extends Component{
           </div>
           <div style={{display:"flex",alignItems:"center"}}>
                 <Dropdown overlay={menu} placement="bottom" arrow>
-                <Button style={{border:"none",background:"#ffff",fontSize:"18px",fontWeight:"bold"}}>ENG</Button>
+                <Button style={{border:"none",background:"#25487B",fontSize:"18px",fontWeight:"bold",color:"#ffffff"}}>ENG</Button>
                 </Dropdown>
                 <div className='button-nav'>Oder now</div>
           </div>
