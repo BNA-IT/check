@@ -21,7 +21,7 @@ html body{
 .submit-form-right h2{
     font-size: 42px;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 45px;
 }
 .submit-form-right{
     width: 50%;
@@ -85,9 +85,42 @@ tr{
         padding-left: 20px;
     }
     .submit-form-right h2{
-        font-size: 40px;
+        font-size: 36px;
     }
     .submit-form-left h2{
-        font-size: 40px;
+        font-size: 36px;
+    }
+    tr td input{
+        width: 280px;
     }
 }
+@media screen and (max-width:740px){
+    .submit-form{
+        display: block;
+    }
+    .submit-form-left{
+        width: 100%;
+    }
+    .submit-form-left h2{
+        font-size: 38px;
+    }
+    .bg-form{
+        height: 120px;
+        width: 100%;
+    }
+    .submit-form-right{
+        margin-top: 40px;
+        width: 100%;
+        padding: 0;
+        padding-left: 5%;
+    }
+    tr td input{
+        width: 230px;
+    }
+    form{
+        width: 100%;
+    }
+    .submit-form{
+        width: 100%;
+    }
+} 

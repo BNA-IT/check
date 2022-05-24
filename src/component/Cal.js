@@ -32,15 +32,15 @@ function Cal (){
                                 <div id="debt-amount-pos"></div>
                             </div>
                         </form>
-                        <div style={{ width:"100%", paddingLeft:"30%", marginTop:"100px"}}> 
-                        <p style={{fontWeight:"boldu"}}>Working hours per day</p>
+                        <div className = "width-day">
+                            <p style={{fontWeight:"boldu"}}>Working hours per day</p>
                             <Col span={12}>
                                 <Slider
                                 min={1}
                                 max={24}
                                 onChange={onChange}
                                 value={typeof inputValue === 'number' ? inputValue : 0}
-                                style = {{}}
+                                className = "day-slide"
                                 />
                             </Col>
                             <Col span={4}>
@@ -52,7 +52,8 @@ function Cal (){
                                 onChange={onChange}
                                 />
                             </Col>
-                            <div style={{display:"flex", justifyContent:"space-between", width:"50%", marginTop:"30px"}}>
+                        </div>
+                            <div className="number-cal">
                                 <div style={{width:"90px"}}>
                                     <p style={{fontSize:"14px", lineHeight:"14px", fontWeight:"bold"}}>Number of machines</p>
                                     <input className="inp-left box"/>
@@ -62,11 +63,10 @@ function Cal (){
                                     <input className="inp-right box"/>
                                 </div>
                             </div>
-                            <div style={{marginTop:"40px", marginBottom:"40px"}}>
+                            <div className="email-cal">
                                 <div><label>EMAIL</label></div>
-                                <input style={{width:"59%", height:"40px"}}></input>
+                                <input style={{width:"100%", height:"40px"}}></input>
                             </div>
-                        </div>
                         <button type="submit" style={{background:"#244C95", padding:"20px 65px", borderRadius:"10px",color:"#ffffff", border:"none",fontSize:"16px",fontWeight:"bold"}}>SEE RESULT</button>  
                     </div>
                    

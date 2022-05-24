@@ -51,7 +51,17 @@
     position: absolute;
     left: -150px;
 }
-
+.containers-table{
+    display: flex;
+    width: 90%;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
 @media only screen and (min-width:740px) and (max-width: 1024px){
     .row {
         padding-bottom: 15px;
@@ -60,3 +70,25 @@
     }
       
 }
+@media screen and (max-width:740px){
+    .img{
+        display: none;
+    }
+    .containers-table{
+        display: block;
+    }
+    .Track{
+        width: 100%;
+        border: 0;
+    }
+    .Shopfloor{
+        width: 100%;
+        border: 0;
+    }
+    .Smart{
+        width: 100%;
+    }
+    .containers-table{
+        margin-top: 1300px;
+    }
+} 
