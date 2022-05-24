@@ -18,6 +18,9 @@ function Price(){
         })
     }
     useEffect(() => {
+        setCheckResult(resultTmp * tongMany);
+    },[tongMany,resultTmp]);
+    useEffect(()=>{
         window.onscroll = function() {myFunction()};
         let head = document.getElementById("top");
         let lead2 = document.getElementById("bottom");
@@ -26,14 +29,13 @@ function Price(){
         console.log("top: ",Top);
         console.log("bot",Bottom);
         function myFunction() {
-            if (window.pageYOffset > 980 && window.pageYOffset < Bottom) {
+            if (window.pageYOffset > Top && window.pageYOffset < Bottom) {
                 head.classList.add("sticky");
             } else {
                 head.classList.remove("sticky");
             }
-          }
-        setCheckResult(resultTmp * tongMany);
-    },[tongMany,resultTmp]);
+        }
+    },[])
     function onChange(checked) {
         console.log(`switch to ${checked}`);
     }
@@ -115,7 +117,7 @@ function Price(){
 
                             </div>
                             <div className="table-row-2-2">
-                                <div className="padding-style-row-2-2">
+                                <div className="padding-style-row-2-2 check-hidden">
                                     <font-letter>Price</font-letter>
                                 </div>
                             </div>
@@ -256,7 +258,7 @@ function Price(){
                             </div>
                         </div>
                     </div>
-                    <div className="table-row-3" id="top" style={{padding:"30px 30px 16px 50px",background:"#F5F8FD"}}>
+                    <div className="table-row-3" id="top" style={{background:"#F5F8FD"}}>
                         <ul style={{display:"flex"}}>
                             <li style={{listStyleType:"none", marginRight:"70px",textAlign:"center"}}>
                                 <font-letter>One time payment</font-letter>
@@ -287,112 +289,7 @@ function Price(){
                         </div>
                     </div>
                 </div>
-                <div id="bottom">hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
-                <div>hung</div>
+                <div id="bottom"></div>                
             </div>
         );
 }

@@ -1,0 +1,93 @@
+html body{
+    width: 100%;
+    padding: o;
+    margin: 0;
+}
+.submit-form{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+}
+.submit-form-left{
+    width: 50%;
+    text-align: center;
+}
+.submit-form-left h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 48px;
+}
+.submit-form-right h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.submit-form-right{
+    width: 50%;
+    padding-left: 70px;
+}
+tr td input{
+    height: 45px;
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid #B5B0C1;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+tr td button{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #25487B;
+    cursor: pointer;
+    border: 1px solid #B5B0C1;
+}
+input:hover{
+    border:2px solid #25487B;
+}
+tr{
+    margin-left: 100px;
+}
+.bg-form{
+    width: 90%;
+    background-image: url("../assets/img/Form.png");
+    background-size: 100% 100%;
+    height: 208px;
+    margin: auto;
+}
+tr{
+    margin-bottom: 20px;
+}
+@media only screen and (min-width:740px) and (max-width: 1024px){
+    .bg-form{
+        width: 100%;
+        background-image: url("../assets/img/Form.png");
+        background-size: 100% 100%;
+        height: 120px;
+        margin: auto;
+    }
+    tr td input{
+        height: 45px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 10px;
+        border: 2px solid #B5B0C1;
+    }
+    .submit-form-right{
+        padding-left: 20px;
+    }
+    .submit-form-right h2{
+        font-size: 40px;
+    }
+    .submit-form-left h2{
+        font-size: 40px;
+    }
+}

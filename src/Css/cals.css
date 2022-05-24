@@ -1,0 +1,11 @@
+.ant-slider-track{
+    background-color: #244C95 !important;
+}
+.ant-slider-handle{
+    border: 2px solid #244C95 !important;
+}
+.box{
+    width: 94px;
+    height: 36px;
+    border: 1px solid #B5B0C1;
+}

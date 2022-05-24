@@ -4,6 +4,9 @@ import Featured from "../component/Featured";
 import Test from "../component/Test";
 import Content from "../component/Content";
 import Footer from "../component/Footer";
+import Form from "../component/Form";
+import Check from "../component/Check";
+import Cal from "../component/Cal";
 function Home(){
     return(
         <div>
@@ -12,6 +15,7 @@ function Home(){
             <Featured></Featured>
             <Test></Test>
             <Content></Content>
+            <Form></Form>
             <Footer></Footer>
         </div>
     );

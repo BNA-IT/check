@@ -102,10 +102,59 @@ ul li h4{
     width: 34%;
     background-color: #F5F8FD;
     position: relative;
+    padding: 30px 30px 16px 50px
 }
 .sticky {
     position: fixed;
     top: 0;
     right: 5%;
     width: 30.6%;
-  }
+}.table-row-3 li{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 70px;
+}
+@media only screen and (min-width:740px) and (max-width: 1024px){
+    .padding-style-row-2-1{
+        padding: 30px 30px 16px 40px;
+    }
+    .flex-box{
+        display: block;
+    }
+    .table-row-2-1{
+        width: 100%;
+    }
+    .table-row-2-2{
+        width: 100%;
+    }
+    .check-hidden{
+        display: none;
+    }
+    .table-row-2{
+        width: 55%;
+    }
+    .table-row-3{
+        width: 45%;
+        padding: 30px 10px 16px 10px;
+    }
+    .sticky {
+        width: 40.5%;
+    }
+    .padding-style-row-2-2{
+        justify-content: flex-start;
+        padding-left: 70px;
+        padding-top: 10px;
+    }
+    .table-row-3 li{
+        list-style-type: none;
+        text-align: center;
+        margin-right: 50px;
+    }
+    ul li h4{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        color: #25487B;
+    }
+}

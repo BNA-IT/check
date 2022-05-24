@@ -4,15 +4,17 @@ import Featured from "../component/Featured";
 import Test from "../component/Test";
 import Content from "../component/Content";
 import Footer from "../component/Footer";
-import Price from "../component/Price";
-function Prices(){
+import Form from "../component/Form";
+import Check from "../component/Check";
+import Cal from "../component/Cal";
+function Calculator(){
     return(
         <div>
             <NavBar></NavBar>
             <Banner/>
-            <Price></Price>
+            <Cal></Cal>
             <Footer></Footer>
         </div>
     );
 }
-export default Prices;
+export default Calculator;

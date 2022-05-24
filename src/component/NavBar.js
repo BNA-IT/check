@@ -25,35 +25,31 @@ const menu = (
 class App extends Component{
   render(){
     return(
-      <div className='nav' style={{display:"flex", alignItems:"center",height:"50px",background:"#25487B",color:"#ffffff",justifyContent:"center",paddingTop:"20px",position:"relative",zIndex:"9999"}}>
-          <div className='img-navbar'>
-              
-          </div>
+      <div className='nav' style={{display:"flex", alignItems:"center",height:"50px",background:"#25487B",color:"#ffffff",justifyContent:"space-between",paddingTop:"20px",position:"relative",zIndex:"9999",padding:"0px 5%"}}>
+        <div style={{display:"flex",alignItems:"center"}}>
+          <div className='img-navbar'></div>
           <div>
               <ul style={{display:"flex", margin:"0",padding:"0"}}>
                   <li><Link to='/' style={{color:"#ffffff"}}>Home</Link></li>
                   <li><Link to='/Prices' style={{color:"#ffffff"}}>Prices</Link></li>
-                  <li>About</li>
-                  <li>Contact</li>
-                  <li>Team</li>
-                  <li>Blog</li>
-                  <li>Tutorials</li>
-                  <li>Podcast</li>
-                  <li>Career</li>
+                  <li><Link to='/Calculator' style={{color:"#ffffff"}}>Calculator</Link></li>
               </ul>
           </div>
-          <div style={{display:"flex",alignItems:"center"}}>
-                <Dropdown overlay={menu} placement="bottom" arrow>
-                <Button style={{border:"none",background:"#25487B",fontSize:"18px",fontWeight:"bold",color:"#ffffff"}}>ENG</Button>
-                </Dropdown>
-                <div className='button-nav'>Oder now</div>
-          </div>
-          <div className='login-nav'>
-              <UserOutlined style={{fontSize:"18px",marginRight:"15px"}} />
-              <div>
-              <p>Login</p>
+        </div>
+          <div style={{display:"flex"}}>
+            <div style={{display:"flex",alignItems:"center"}}>
+                  <Dropdown overlay={menu} placement="bottom" arrow>
+                  <Button style={{border:"none",background:"#25487B",fontSize:"18px",fontWeight:"bold",color:"#ffffff"}}>ENG</Button>
+                  </Dropdown>
+                  <div className='button-nav'>Oder now</div>
+            </div>
+            <div className='login-nav'>
+                <UserOutlined style={{fontSize:"18px",marginRight:"15px"}} />
+                <div>
+                <p>Login</p>
 
-              </div>
+                </div>
+            </div>
           </div>
       </div>
     );

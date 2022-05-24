@@ -11,6 +11,7 @@ import Banner from './component/Banner';
 import Price from './component/Price';
 import Home from './pages/Home';
 import Prices from './pages/Prices';
+import Calculator from './pages/Calculator';
 import './App.css';
 import { Routes,Route } from 'react-router-dom';
 class App extends Component{
@@ -20,6 +21,7 @@ class App extends Component{
         <Routes>
           <Route path='/' element = {<Home></Home>}></Route>
           <Route path='/Prices' element = {<Prices></Prices>}></Route>
+          <Route path='/Calculator' element = {<Calculator></Calculator>}></Route>
         </Routes>
       </div>
       );

@@ -6,7 +6,7 @@ class Head extends Component{
             <div className="content">
                 <div className="content-left-banner">
                     <h1 style={{color:"#ffffff"}}>Real-time factory tracker</h1>
-                    <p>Our <span>software</span> & <span>hardware</span> solution gives you real-time<br></br> information on your production capacity. Get <span>up to 30%</span><br></br> of profit with production effectiveness.</p>
+                    <p>Our <span>software</span> & <span>hardware</span> solution gives you real-time information on your production capacity. Get <span>up to 30%</span> of profit with production effectiveness.</p>
                     <div style={{display:"flex"}}>
                         <div className="button-head">Request a demo</div>
                         <span style={{fontSize:"20px", lineHeight:"55px",marginLeft:"25px"}}>Learn more</span>

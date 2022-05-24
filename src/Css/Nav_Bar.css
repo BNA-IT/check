@@ -1,9 +1,9 @@
 .img-navbar{
-    background-image: url("../assets/img/logo-backgroud-dark_.png");
+    background-image: url("../assets/img/32.png");
     height: 50px;
-    width:200px;
+    width:50px;
     background-size: 100% 100%;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 ul{
     margin: 0;
@@ -12,7 +12,7 @@ ul{
 .nav li{
     margin-right: 40px;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 .nav{
@@ -56,4 +56,7 @@ html body{
       padding: 0;
       font-size: 16px;
       font-weight: bold;
+  }
+  @media only screen and (min-width:740px) and (max-width: 1024px){
+      
   }

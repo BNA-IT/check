@@ -9,7 +9,7 @@ class Test extends Component{
                     <div className="content-left-1"></div>
                     <div className="content-right">
                         <h3>Every production can do more with data</h3>
-                        <p>Rostek collects data from your production and provides insight into why real performance<br></br> is different from the production plan. Bring decision-making from planning to real-time.<br></br> You’ll get instant notifications when interruptions and downtimes occur.</p>
+                        <p>Rostek collects data from your production and provides insight into why real performance is different from the production plan. Bring decision-making from planning to real-time.You’ll get instant notifications when interruptions and downtimes occur.</p>
                         <div className="flex-col">
                             <div className="col-box">
                                 

@@ -1,5 +1,5 @@
 .Content-main{
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 500px;
     margin-top: 225px;
@@ -18,7 +18,7 @@
     background-image: url("https://themes.envytheme.com/alpas/wp-content/uploads/2019/11/rectangle-shape2-5.png");
     width: 295px;
     height: 277px;
-    right:-150px;
+    right:-5%;
     bottom: -120px;
     z-index: 3;
 }
@@ -74,6 +74,7 @@
 .content-right{
     padding-top: 60px;
     line-height: 40px;
+    width: 50%;
 }
 .flex-col{
     width: 100%;
@@ -82,4 +83,30 @@
 }
 .col-box{
     width: 40%;
+}
+@media only screen and (min-width:740px) and (max-width: 1024px){
+    .content-left-1{
+        height: 300px;
+    }
+    .content-right{
+        padding-top: 0px;
+    }
+    .Content-title-2 h3{
+        font-size: 28px;
+    }
+    .Content-title-1 h3{
+        font-size: 28px;
+    }
+    .Content-title-1 span{
+        font-size: 14.5px;
+    }
+    .Content-title-2 span{
+        font-size: 14.5px;
+    }
+    .col-box{
+        width: 50%;
+    }
+    .content-left-2{
+        height: 300px;
+    }
 }
