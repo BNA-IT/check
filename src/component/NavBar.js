@@ -66,7 +66,9 @@ function Nav(){
                     <div className='button-nav'>Oder now</div>
               </div>
               <div className='login-nav'>
-                  <UserOutlined style={{fontSize:"18px",marginRight:"15px"}} />
+                  <a href='https://login.rosoee.com/login'>
+                    <UserOutlined style={{fontSize:"18px",marginRight:"15px",color:"#ffffff"}} />
+                  </a>
                   <div>
                   <p></p>
 
