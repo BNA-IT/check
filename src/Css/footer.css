@@ -24,7 +24,7 @@
     background-image: url("../assets/img/logo-backgroud-dark_.png");
     background-size: 100% 100%;
     width: 90%;
-    height: 9vh;
+    height: 11vh;
 }
 .footer-2{
     width: 20%;
@@ -136,3 +136,47 @@ a{
         /* line-height: 0px; */
     }    
 }
+@media screen and (max-width:740px){
+    .footer {
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .footer-2{
+        display: none;
+    }
+    .content-7{
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .footer-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-3{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .footer-withlove p{
+        font-size: 12px;
+    }
+    .scroll-btn{
+       left: 5px;
+       bottom: 5px;
+    }
+    .logo-book{
+        width: 375px;
+    }
+    .bg-footer{
+        width: 350px;
+        height: 80px;
+    }
+    .insert-footer-2 {
+        display: none;
+    }
+    .insert-footer-1{
+        display: none;
+    }
+} 

@@ -110,3 +110,23 @@
         height: 300px;
     }
 }
+@media screen and (max-width:740px){
+    .Content-title-1{
+        display: block;
+    }
+    .content-left-1{
+        width: 100%;
+    }
+    .content-right{
+        width: 100%;
+    }
+    .Content-title-2{
+        display: block;
+    }
+    .content-left-2{
+        width: 100%;
+    }
+    .flex-col{
+        justify-content: space-between;
+    }
+} 

@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import '../Css/price.css'
+// import '../Css/price.css'
 import{useState, useEffect} from "react"
 import { Switch } from 'antd';
 function Price(){
@@ -28,13 +28,17 @@ function Price(){
         let Top = head.offsetTop;
         console.log("top: ",Top);
         console.log("bot",Bottom);
+        let widthMobi = window.screen.availWidth;
         function myFunction() {
-            if (window.pageYOffset > Top && window.pageYOffset < Bottom) {
-                head.classList.add("sticky");
-            } else {
-                head.classList.remove("sticky");
+            if(widthMobi >= 740){
+                if (window.pageYOffset > Top && window.pageYOffset < Bottom) {
+                    head.classList.add("sticky");
+                } else {
+                    head.classList.remove("sticky");
+                }
             }
         }
+        console.log("hhhh",window.screen.availWidth);
     },[])
     function onChange(checked) {
         console.log(`switch to ${checked}`);

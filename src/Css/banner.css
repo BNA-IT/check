@@ -28,3 +28,8 @@
         margin-bottom: 50px;
     }
 }
+@media screen and (max-width:740px){
+    .insert-banner{
+        height: 40px;
+    }
+} 

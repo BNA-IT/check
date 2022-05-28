@@ -1,4 +1,4 @@
-import '../Css/form_style.css'
+// import '../Css/form_style.css'
 import { useEffect } from 'react';
 import $ from 'jquery';
 function Form(){

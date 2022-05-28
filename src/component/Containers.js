@@ -1,10 +1,10 @@
 import React,{Component} from "react";
-import '../Css/containers.css'
+// import '../Css/containers.css'
 class Containers extends Component{
     render(){
         return(
             <div style={{width:"100%"}}> 
-            <div style={{display:"flex",width:"90%",justifyContent:"space-between",marginTop:"70px",background:"rgba(0, 0, 0, 0)",margin:"auto",position:"relative",zIndex:"2"}}>
+            <div className="containers-table">
                 <div className="img"></div>
                 <div className="Track">
                     <p style={{fontSize:"16px",fontWeight:"bold",color:"#B5B0C1",paddingLeft:"10px"}}>Track in real time</p>

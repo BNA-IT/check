@@ -66,3 +66,40 @@
         height: 400px;
     }
 }
+@media screen and (max-width:740px){
+  .content{
+      display: block;
+  }  
+  .content-left-banner{
+      width: 100%;
+  }
+  .content-left-banner h1{
+      font-size: 40px;
+      padding-right: 0;
+  }
+  .content-left-banner p{
+      padding-right: 0;
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .content-right-banner{
+      width: 80%;
+      height: 300px;
+      margin: 40px auto;
+  }
+  .content{
+      left: 0;
+  }
+  .button-head{
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #9EA4A9;
+    color: #ffff;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15px;
+  }
+} 
