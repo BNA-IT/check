@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import '../Css/price.css'
+// import '../Css/price.css'
 import{useState, useEffect} from "react"
 import { Switch } from 'antd';
 function Price(){

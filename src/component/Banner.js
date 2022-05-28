@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import '../Css/banner.css'
+// import '../Css/banner.css'
 import Head from "./Head";
 class Banner extends Component{
     render(){

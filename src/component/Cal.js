@@ -1,8 +1,8 @@
 import React,{Component} from "react";
 import{useState, useEffect} from "react"
 import { Slider, InputNumber, Row, Col } from 'antd';
-import '../Css/cal.scss'
-import '../Css/cals.css'
+// import '../Css/cal.scss'
+// import '../Css/cals.css'
 function Cal (){
     const [inputValue, setInputValue] = useState(1);
     const onChange = (newValue) => {

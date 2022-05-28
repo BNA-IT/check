@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import '../Css/contentPage.css'
+// import '../Css/contentPage.css'
 import Containers from "./Containers";
 class Content extends Component{
     render(){

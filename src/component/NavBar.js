@@ -1,23 +1,23 @@
 import React,{Component} from 'react';
-import '../Css/Nav_Bar.css';
+// import '../Css/Nav_Bar.css';
 import { Menu, Dropdown, Button } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
+import  Link from 'next/link';
 import { useEffect } from 'react';
 const menu = (
   <Menu>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a target="_blank" rel="noopener noreferrer" href="/a">
         VN
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a target="_blank" rel="noopener noreferrer" href="/b">
         China
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a target="_blank" rel="noopener noreferrer" href="/c">
         Test
       </a>
     </Menu.Item>
@@ -42,19 +42,19 @@ function Nav(){
     return(
       <div>
         <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onClick={()=>{document.getElementById("mySidenav").style.width = "0px";}}>&times;</a>
-              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Home</Link></li>
+              {/* <Link href="javascript:void(0)" class="closebtn" onClick={()=>{document.getElementById("mySidenav").style.width = "0px";}}>&times;</Link> */}
+              {/* <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Home</Link></li>
               <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/Prices' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Prices</Link></li>
-              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/Calculator' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Calculator</Link></li>
+              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/Calculator' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Calculator</Link></li> */}
         </div>
         <div className='nav' style={{display:"flex", alignItems:"center",height:"50px",background:"#25487B",color:"#ffffff",justifyContent:"space-between",paddingTop:"20px",position:"relative",zIndex:"9999",padding:"0px 5%"}}>
           <div style={{display:"flex",alignItems:"center"}}>
             <div className='img-navbar'></div>
             <div className='nav-pc'>
                 <ul style={{display:"flex", margin:"0",padding:"0"}}>
-                    <li><Link to='/' style={{color:"#ffffff"}}>Home</Link></li>
-                    <li><Link to='/Prices' style={{color:"#ffffff"}}>Prices</Link></li>
-                    <li><Link to='/Calculator' style={{color:"#ffffff"}}>Calculator</Link></li>
+                    {/* <li><Link href='/' style={{color:"#ffffff"}}><a>Home</a></Link></li>
+                    <li><Link href='/Prices' style={{color:"#ffffff"}}><a>Prices</a></Link></li>
+                    <li><Link href='/Calculator' style={{color:"#ffffff"}}><a>Calculator</a></Link></li> */}
                 </ul>
             </div>
           </div>
@@ -67,7 +67,7 @@ function Nav(){
               </div>
               <div className='login-nav'>
                   <a href='https://login.rosoee.com/login'>
-                    <UserOutlined style={{fontSize:"18px",marginRight:"15px",color:"#ffffff"}} />
+                    <UserOutlined style={{fontSize:"18px",marginRight:"15px",color:"#ffffffgit "}} />
                   </a>
                   <div>
                   <p></p>

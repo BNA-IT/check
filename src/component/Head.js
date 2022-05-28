@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import '../Css/head_Content.css'
+// import '../Css/head_Content.css'
 class Head extends Component{
     render(){
         return(
