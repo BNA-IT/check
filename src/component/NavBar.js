@@ -42,19 +42,19 @@ function Nav(){
     return(
       <div>
         <div id="mySidenav" class="sidenav">
-              {/* <Link href="javascript:void(0)" class="closebtn" onClick={()=>{document.getElementById("mySidenav").style.width = "0px";}}>&times;</Link> */}
-              {/* <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Home</Link></li>
-              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/Prices' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Prices</Link></li>
-              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link to='/Calculator' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Calculator</Link></li> */}
+              <Link href="javascript:void(0)" class="closebtn" onClick={()=>{document.getElementById("mySidenav").style.width = "0px";}}>&times;</Link>
+              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link href='/' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Home</Link></li>
+              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link href='/Prices' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Prices</Link></li>
+              <li style={{listStyleType:"none",marginLeft:"40px",marginBottom:"18px"}}><Link href='/Calculator' style={{color:"#244C95",fontSize:"20px",fontWeight:"bold",marginBottom:"20px"}}>Calculator</Link></li>
         </div>
         <div className='nav' style={{display:"flex", alignItems:"center",height:"50px",background:"#25487B",color:"#ffffff",justifyContent:"space-between",paddingTop:"20px",position:"relative",zIndex:"9999",padding:"0px 5%"}}>
           <div style={{display:"flex",alignItems:"center"}}>
             <div className='img-navbar'></div>
             <div className='nav-pc'>
                 <ul style={{display:"flex", margin:"0",padding:"0"}}>
-                    {/* <li><Link href='/' style={{color:"#ffffff"}}><a>Home</a></Link></li>
-                    <li><Link href='/Prices' style={{color:"#ffffff"}}><a>Prices</a></Link></li>
-                    <li><Link href='/Calculator' style={{color:"#ffffff"}}><a>Calculator</a></Link></li> */}
+                    <li><Link href='/' style={{color:"#ffffff"}}><a style={{color:"#ffffff"}}>Home</a></Link></li>
+                    <li><Link href='/prices' style={{color:"#ffffff"}}><a style={{color:"#ffffff"}}>Prices</a></Link></li>
+                    <li><Link href='/calculator' style={{color:"#ffffff"}}><a style={{color:"#ffffff"}}>Calculator</a></Link></li>
                 </ul>
             </div>
           </div>
@@ -66,7 +66,7 @@ function Nav(){
                     <div className='button-nav'>Oder now</div>
               </div>
               <div className='login-nav'>
-                  <a href='https://login.rosoee.com/login'>
+                  <a href='https://login.rosoee.com/login' style={{color:"#ffffff"}}>
                     <UserOutlined style={{fontSize:"18px",marginRight:"15px",color:"#ffffffgit "}} />
                   </a>
                   <div>
